@@ -52,7 +52,7 @@ def audios(flag,  dataset_name):
         return: the choosen frames' path and label
     '''
     # The process is a litter cumbersome, you can change to your way for convenience
-    root_path = '/home/lifan/lxf_Project/FFD/reconstruct-Griffinlim/data_label/' + dataset_name
+    root_path = '/home/lifan/project_audio/GAN-Vocoder-detection/data_json/' + dataset_name
     if(flag == 0): # select the fake images
         label_path = root_path + '/fake_label.json'
         save_label_path = root_path + '/choose_fake_label.json'
